@@ -1,0 +1,84 @@
+.form{
+  padding: 21px 30px;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  &__logo{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+  }
+  &__content{
+    padding-left: 86px;
+    &-title{
+      margin-top: 102px;
+      font-weight: 500;
+      font-size: 30px;
+      color: #000000;
+    }
+    &-text{
+      line-height: 24px;
+      font-size: 16px;
+      color: #000000;
+      margin: 22px 0 52px;
+    }
+  }
+  &__btn{
+    background: #0C21C1;
+    box-shadow: 0 4px 26px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #FFFFFF;
+    width: 429px;
+    height: 53px;
+    margin-top: 53px;
+  }
+  &__label{
+    &-text{
+      font-weight: 500;
+      font-size: 13px;
+      color: #999999;
+    }
+    &-field{
+      padding-bottom: 3px;
+      margin-top: 11px;
+      display: flex;
+      column-gap: 10px;
+      align-items: center;
+      border-bottom: #999999 1px solid;
+      width: 429px;
+      margin-bottom: 17px;
+    }
+    &-input{
+      width: 100%;
+      outline: none;
+      border: none;
+    }
+  }
+  &__right{
+    position: relative;
+    &-nav{
+      position: absolute;
+      top: 665px;
+      left: 88px;
+    }
+    &-title{
+      font-weight: 600;
+      font-size: 40px;
+      color: #FFFFFF;
+    }
+    &-text{
+      margin-top: 4px;
+      font-size: 20px;
+      color: #FFFFFF;
+    }
+  }
+  &__span{
+    color: #0C21C1;
+    font-weight: 600;
+    margin-left: 15px;
+  }
+}
